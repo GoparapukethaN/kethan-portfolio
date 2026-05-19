@@ -17,7 +17,5 @@ The site is built around public, verifiable projects:
 - AI Reliability Lab
 - Applied AI Eval Lab
 - MLOps End-to-End Pipeline
-- RAG Forge
 - MLGuard
-- StreamInfer
-
+- Ray documentation PR
