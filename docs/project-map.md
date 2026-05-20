@@ -52,5 +52,5 @@ the path from retrieval and evaluation to serving, release gates, and classic ML
 4. Read one focused case study:
    [RAG Forge](https://github.com/GoparapukethaN/rag-forge/blob/main/docs/case-study.md),
    [StreamInfer](https://github.com/GoparapukethaN/streaminfer/blob/main/docs/case-study.md),
-   or [MLGuard](https://github.com/GoparapukethaN/mlguard/blob/main/docs/case-study.md).
-
+   [MLGuard](https://github.com/GoparapukethaN/mlguard/blob/main/docs/case-study.md),
+   or [MLOps Pipeline](https://github.com/GoparapukethaN/mlops-end-to-end-pipeline/blob/main/docs/case-study.md).
