@@ -19,7 +19,7 @@ The site is built around public, verifiable projects:
 - RAG Forge
 - MLOps End-to-End Pipeline
 - MLGuard
-- Ray documentation PR
+- Open source PRs in Ray/RLlib and Hugging Face LightEval
 
 Current proof strip:
 
