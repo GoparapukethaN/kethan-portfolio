@@ -4,8 +4,9 @@ Last refreshed: 2026-05-20
 
 This ledger keeps the public portfolio proof strip tied to repo-level verification
 artifacts. The counts below are local verification counts for the six featured AI/MLOps
-repos; frontend builds, Docker smokes, audits, and browser QA are listed as supporting
-checks but are not added to the test total.
+repos. Frontend builds, Docker smokes, audits, and browser QA are listed as supporting
+checks but are not added to the test total. Docker checks require Docker to be installed;
+the core `make verify` paths do not require an API key.
 
 ## Featured Repo Counts
 
@@ -37,7 +38,7 @@ override keeps the command aligned with the local virtualenv used for verificati
 | `applied-ai-eval-lab` | `PYTHON=.venv/bin/python make verify` |
 | `rag-forge` | `PYTHON=.venv/bin/python make verify` and `PYTHON=.venv/bin/python make sample-check` |
 | `streaminfer` | `PYTHON=.venv/bin/python make verify` and `PYTHON=.venv/bin/python make docker-check` |
-| `mlops-end-to-end-pipeline` | `PYTHON=.venv/bin/python make verify` and `make docker-check` |
+| `mlops-end-to-end-pipeline` | `PYTHON=.venv/bin/python make verify` and `make docker-check` when Docker is installed |
 | `mlguard` | `PYTHON=.venv/bin/python make verify` |
 
 ## Verification Sources
