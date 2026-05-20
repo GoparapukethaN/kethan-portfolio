@@ -12,7 +12,7 @@ checks but are not added to the test total.
 | Repo | Local test count | Supporting proof |
 | --- | ---: | --- |
 | [ai-reliability-lab](https://github.com/GoparapukethaN/ai-reliability-lab) | 29 | Frontend typecheck/build, CLI smoke, Docker Compose smoke, and dashboard Playwright QA |
-| [applied-ai-eval-lab](https://github.com/GoparapukethaN/applied-ai-eval-lab) | 21 | Frontend audit/typecheck/build/static export, static demo data contract, and Docker smoke |
+| [applied-ai-eval-lab](https://github.com/GoparapukethaN/applied-ai-eval-lab) | 21 | Frontend audit/typecheck/build/static export, static demo data contract, tracked static demo browser QA, and Docker smoke |
 | [rag-forge](https://github.com/GoparapukethaN/rag-forge) | 37 | Ruff, keyless sample benchmark, and sample regression gate |
 | [streaminfer](https://github.com/GoparapukethaN/streaminfer) | 40 | Ruff, live smoke, Docker smoke, sample benchmark gate, and load-report run |
 | [mlops-end-to-end-pipeline](https://github.com/GoparapukethaN/mlops-end-to-end-pipeline) | 15 | Strict lint/format checks, Compose config, training import, and Docker image smoke |
