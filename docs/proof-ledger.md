@@ -26,6 +26,20 @@ Total local tests: `29 + 21 + 37 + 40 + 15 + 26 = 168`.
 - Local tests across featured AI/MLOps repos: `168`
 - API keys required for core demos: `0`
 
+## Reproduce The Local Proof
+
+Run these from each repo after installing its documented dependencies. The `PYTHON`
+override keeps the command aligned with the local virtualenv used for verification.
+
+| Repo | Command |
+| --- | --- |
+| `ai-reliability-lab` | `PYTHON=.venv/bin/python make verify` and `PYTHON=.venv/bin/python make docker-check` |
+| `applied-ai-eval-lab` | `PYTHON=.venv/bin/python make verify` |
+| `rag-forge` | `PYTHON=.venv/bin/python make verify` and `PYTHON=.venv/bin/python make sample-check` |
+| `streaminfer` | `PYTHON=.venv/bin/python make verify` and `PYTHON=.venv/bin/python make docker-check` |
+| `mlops-end-to-end-pipeline` | `PYTHON=.venv/bin/python make verify` and `make docker-check` |
+| `mlguard` | `PYTHON=.venv/bin/python make verify` |
+
 ## Verification Sources
 
 - [AI Reliability Platform verification](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/verification.md)
