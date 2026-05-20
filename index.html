@@ -141,7 +141,7 @@
             <ul class="project-points">
               <li>21 backend tests, frontend audit/typecheck/static export, demo data checks, and tracked desktop/mobile demo QA.</li>
               <li>Writes JSON/Markdown report artifacts with report detail endpoints.</li>
-              <li>Docker smoke verifies indexing, grounded query, eval gate, reports, CORS, and dashboard readiness.</li>
+              <li>Core verification is Docker-free; Docker smoke separately verifies indexing, grounded query, eval gate, reports, CORS, and dashboard readiness.</li>
             </ul>
             <div class="link-row">
               <a href="https://github.com/GoparapukethaN/applied-ai-eval-lab">Repo</a>
@@ -236,8 +236,8 @@
             </p>
             <ul class="project-points">
               <li>15 tests cover API behavior, request validation, data cleaning, and feature prep.</li>
-              <li>Local verification includes strict lint/format checks, training import, Prometheus parsing, and Compose validation.</li>
-              <li>Local Docker image smoke check verifies health and prediction paths.</li>
+              <li>Local verification includes strict lint/format checks, training import, and Prometheus parsing without requiring Docker.</li>
+              <li>Optional Docker/Compose checks verify container config, health, and prediction paths.</li>
             </ul>
             <div class="link-row">
               <a href="https://github.com/GoparapukethaN/mlops-end-to-end-pipeline">Repo</a>
@@ -311,6 +311,15 @@
               regression checks should be visible before adding a stronger model provider.
             </p>
             <a href="https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/notes/evals-before-llms.md">Read note</a>
+          </article>
+          <article class="note-card">
+            <span class="note-date">Local verification</span>
+            <h3>Verifying AI Systems Without API Keys</h3>
+            <p>
+              A practical note on deterministic baselines, report artifacts, browser QA,
+              and keeping Docker smoke checks separate from core local verification.
+            </p>
+            <a href="https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/no-key-verification.md">Read note</a>
           </article>
           <article class="note-card">
             <span class="note-date">Applied AI Eval Lab</span>

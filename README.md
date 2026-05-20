@@ -37,4 +37,6 @@ Project map: [docs/project-map.md](docs/project-map.md)
 
 Recruiter brief: [docs/recruiter-brief.md](docs/recruiter-brief.md)
 
+Verification note: [docs/no-key-verification.md](docs/no-key-verification.md)
+
 Share preview image: [assets/og-preview.png](assets/og-preview.png)
