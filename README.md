@@ -20,6 +20,7 @@ The site is built around public, verifiable projects:
 - MLOps End-to-End Pipeline
 - MLGuard
 - Open source PRs in Ray/RLlib and Hugging Face LightEval
+- Supporting systems project: Prism CLI
 
 Current proof strip:
 
