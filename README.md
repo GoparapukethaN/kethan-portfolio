@@ -17,6 +17,7 @@ The site is built around public, verifiable projects:
 - AI Reliability Platform
 - Applied AI Eval Lab
 - RAG Forge
+- StreamInfer
 - MLOps End-to-End Pipeline
 - MLGuard
 - Open source PRs in Ray/RLlib, Hugging Face LightEval, and BentoML
@@ -24,6 +25,6 @@ The site is built around public, verifiable projects:
 
 Current proof strip:
 
-- 5 featured repos checked locally
-- 90 local tests across the featured AI/MLOps repos
+- 6 featured repos checked locally
+- 122 local tests across the featured AI/MLOps repos
 - 0 API keys required for core demos
