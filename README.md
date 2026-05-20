@@ -24,5 +24,5 @@ The site is built around public, verifiable projects:
 Current proof strip:
 
 - 5 featured repos checked locally
-- 87 local tests across the featured AI/MLOps repos
+- 89 local tests across the featured AI/MLOps repos
 - 0 API keys required for core demos
