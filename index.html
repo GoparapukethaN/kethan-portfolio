@@ -67,7 +67,7 @@
           <span class="proof-label">featured repos checked locally</span>
         </div>
         <div>
-          <span class="proof-number">122</span>
+          <span class="proof-number">127</span>
           <span class="proof-label">local tests across featured AI/MLOps repos</span>
         </div>
         <div>
@@ -137,15 +137,17 @@
             <h3>RAG Forge</h3>
             <p>
               Retrieval benchmark runner for comparing chunking, embedding, dense,
-              BM25, hybrid retrieval, and reranking choices with Markdown/JSON reports.
+              BM25, hybrid retrieval, and reranking choices with Markdown/JSON reports
+              and a regression gate for retrieval-quality changes.
             </p>
             <ul class="project-points">
               <li>Reports hit rate, MRR, context precision, latency, and chunk count.</li>
-              <li>Generates recommendation artifacts and a Pareto plot for tradeoff review.</li>
+              <li>Blocks quality drops beyond configured hit-rate, MRR, and latency thresholds.</li>
             </ul>
             <div class="link-row">
               <a href="https://github.com/GoparapukethaN/rag-forge">Repo</a>
               <a href="https://github.com/GoparapukethaN/rag-forge/blob/main/docs/sample-benchmark.md">Sample benchmark</a>
+              <a href="https://github.com/GoparapukethaN/rag-forge/blob/main/docs/sample-regression-gate.md">Regression gate</a>
             </div>
           </article>
 
