@@ -16,12 +16,13 @@ The site is built around public, verifiable projects:
 
 - AI Reliability Platform
 - Applied AI Eval Lab
+- RAG Forge
 - MLOps End-to-End Pipeline
 - MLGuard
 - Ray documentation PR
 
 Current proof strip:
 
-- 4 featured repos checked locally
-- 57 local tests across the four featured AI/MLOps repos
+- 5 featured repos checked locally
+- 87 local tests across the featured AI/MLOps repos
 - 0 API keys required for core demos
