@@ -28,3 +28,5 @@ Current proof strip:
 - 6 featured repos checked locally
 - 168 local tests across the featured AI/MLOps repos
 - 0 API keys required for core demos
+
+Ledger: [docs/proof-ledger.md](docs/proof-ledger.md)
