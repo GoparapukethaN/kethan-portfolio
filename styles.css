@@ -292,6 +292,7 @@ h3 {
 .proof-link {
   display: inline-flex;
   margin-top: 10px;
+  margin-right: 12px;
   color: var(--accent);
   font-size: 14px;
   font-weight: 800;

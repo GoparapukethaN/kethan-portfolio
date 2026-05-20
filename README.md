@@ -33,4 +33,6 @@ Current proof strip:
 
 Ledger: [docs/proof-ledger.md](docs/proof-ledger.md)
 
+Project map: [docs/project-map.md](docs/project-map.md)
+
 Share preview image: [assets/og-preview.png](assets/og-preview.png)
