@@ -17,7 +17,8 @@ where ML models have to become measurable systems instead of isolated demos.
 1. Portfolio: <https://goparapukethan.github.io/kethan-portfolio/>
 2. Proof ledger: <https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/proof-ledger.md>
 3. Project map: <https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/project-map.md>
-4. Flagship walkthrough: <https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/demo.md#dashboard-demo>
+4. Verification note: <https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/no-key-verification.md>
+5. Flagship walkthrough: <https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/demo.md#dashboard-demo>
 
 ## Public Project Signals
 
@@ -48,6 +49,7 @@ I have focused upstream PRs open in AI infrastructure and evaluation tooling:
 - Why retrieval quality needs regression checks before changing chunking or embedding setup
 - How to measure RAG behavior with citations, source coverage, refusal checks, and latency
 - How to design a local-first AI system that still leaves room for optional model providers
+- How to keep core AI verification Docker-free while preserving separate container smoke checks
 - How release gates catch drift, model regression, and latency regression before deployment
 - How ML services should expose health, readiness, metrics, and artifact boundaries
 
@@ -55,4 +57,3 @@ I have focused upstream PRs open in AI infrastructure and evaluation tooling:
 
 These are portfolio projects, not claims of production users or external adoption. The
 work is framed around what I built, verified locally, and can explain in detail.
-

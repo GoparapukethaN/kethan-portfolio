@@ -24,7 +24,7 @@ the path from retrieval and evaluation to serving, release gates, and classic ML
 | Observability | AI Reliability traces/metrics, StreamInfer metrics, MLGuard reports |
 | Serving | StreamInfer HTTP/WebSocket serving, MLOps FastAPI service |
 | Release gates | Applied AI eval gate, RAG Forge regression gate, StreamInfer benchmark gate, MLGuard release gate |
-| Local reproducibility | Proof ledger, `make verify` commands, Docker smoke checks |
+| Local reproducibility | Proof ledger, Docker-free `make verify` commands, optional Docker smoke checks |
 | Public OSS practice | Open PRs in Ray, LightEval, and BentoML |
 
 ## What The Portfolio Proves
@@ -45,11 +45,12 @@ the path from retrieval and evaluation to serving, release gates, and classic ML
 ## Fast Review Path
 
 1. Open the portfolio proof ledger: [proof-ledger.md](proof-ledger.md).
-2. Open the flagship demo walkthrough:
+2. Read the local verification note: [no-key-verification.md](no-key-verification.md).
+3. Open the flagship demo walkthrough:
    [AI Reliability Platform](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/demo.md).
-3. Open the live static demo:
+4. Open the live static demo:
    [Applied AI Eval Lab](https://goparapukethan.github.io/applied-ai-eval-lab/).
-4. Read one focused case study:
+5. Read one focused case study:
    [RAG Forge](https://github.com/GoparapukethaN/rag-forge/blob/main/docs/case-study.md),
    [StreamInfer](https://github.com/GoparapukethaN/streaminfer/blob/main/docs/case-study.md),
    [MLGuard](https://github.com/GoparapukethaN/mlguard/blob/main/docs/case-study.md),

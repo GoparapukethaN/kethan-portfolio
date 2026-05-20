@@ -16,7 +16,7 @@ the core `make verify` paths do not require an API key.
 | [applied-ai-eval-lab](https://github.com/GoparapukethaN/applied-ai-eval-lab) | 21 | Frontend audit/typecheck/build/static export, static demo data contract, tracked static demo browser QA, and Docker smoke |
 | [rag-forge](https://github.com/GoparapukethaN/rag-forge) | 37 | Ruff, keyless sample benchmark, and sample regression gate |
 | [streaminfer](https://github.com/GoparapukethaN/streaminfer) | 40 | Ruff, live smoke, Docker smoke, sample benchmark gate, and load-report run |
-| [mlops-end-to-end-pipeline](https://github.com/GoparapukethaN/mlops-end-to-end-pipeline) | 15 | Strict lint/format checks, Compose config, training import, and Docker image smoke |
+| [mlops-end-to-end-pipeline](https://github.com/GoparapukethaN/mlops-end-to-end-pipeline) | 15 | Strict lint/format checks, training import, Prometheus parse, optional Compose config, and optional Docker image smoke |
 | [mlguard](https://github.com/GoparapukethaN/mlguard) | 26 | Ruff, JSON summary counts, CLI/action metadata checks, and sklearn example |
 
 Total local tests: `29 + 21 + 37 + 40 + 15 + 26 = 168`.
@@ -34,10 +34,10 @@ override keeps the command aligned with the local virtualenv used for verificati
 
 | Repo | Command |
 | --- | --- |
-| `ai-reliability-lab` | `PYTHON=.venv/bin/python make verify` and `PYTHON=.venv/bin/python make docker-check` |
+| `ai-reliability-lab` | `PYTHON=.venv/bin/python make verify` and `PYTHON=.venv/bin/python make docker-check` when Docker is installed |
 | `applied-ai-eval-lab` | `PYTHON=.venv/bin/python make verify` |
 | `rag-forge` | `PYTHON=.venv/bin/python make verify` and `PYTHON=.venv/bin/python make sample-check` |
-| `streaminfer` | `PYTHON=.venv/bin/python make verify` and `PYTHON=.venv/bin/python make docker-check` |
+| `streaminfer` | `PYTHON=.venv/bin/python make verify` and `PYTHON=.venv/bin/python make docker-check` when Docker is installed |
 | `mlops-end-to-end-pipeline` | `PYTHON=.venv/bin/python make verify` and `make docker-check` when Docker is installed |
 | `mlguard` | `PYTHON=.venv/bin/python make verify` |
 
