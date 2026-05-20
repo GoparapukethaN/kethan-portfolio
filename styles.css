@@ -368,6 +368,12 @@ h3 {
   background: var(--panel-strong);
 }
 
+.note-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
 .note-date {
   display: block;
   margin-bottom: 12px;
@@ -433,6 +439,7 @@ footer {
 
   .section-grid,
   .project-grid,
+  .note-grid,
   .system-grid,
   .proof-strip {
     grid-template-columns: 1fr;

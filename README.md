@@ -2,6 +2,8 @@
 
 Static portfolio for MLOps and applied AI systems work.
 
+Public site: https://goparapukethan.github.io/kethan-portfolio/
+
 ## Local Preview
 
 ```bash
@@ -18,8 +20,8 @@ The site is built around public, verifiable projects:
 - Applied AI Eval Lab
 - RAG Forge
 - StreamInfer
-- MLOps End-to-End Pipeline
 - MLGuard
+- MLOps End-to-End Pipeline
 - Open source PRs in Ray/RLlib, Hugging Face LightEval, and BentoML
 - Supporting systems project: Prism CLI
 
