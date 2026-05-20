@@ -32,3 +32,5 @@ Current proof strip:
 - 0 API keys required for core demos
 
 Ledger: [docs/proof-ledger.md](docs/proof-ledger.md)
+
+Share preview image: [assets/og-preview.png](assets/og-preview.png)
