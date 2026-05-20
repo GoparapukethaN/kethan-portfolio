@@ -19,7 +19,7 @@ The site is built around public, verifiable projects:
 - RAG Forge
 - MLOps End-to-End Pipeline
 - MLGuard
-- Open source PRs in Ray/RLlib and Hugging Face LightEval
+- Open source PRs in Ray/RLlib, Hugging Face LightEval, and BentoML
 - Supporting systems project: Prism CLI
 
 Current proof strip:
