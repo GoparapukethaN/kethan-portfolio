@@ -27,6 +27,19 @@ Total local tests: `29 + 21 + 37 + 40 + 15 + 26 = 168`.
 - Local tests across featured AI/MLOps repos: `168`
 - API keys required for core demos: `0`
 
+## Latest Docker-Free Sweep
+
+Refreshed on 2026-05-20 after splitting Docker smoke checks from the core local gates:
+
+| Repo | Result |
+| --- | --- |
+| `ai-reliability-lab` | `make verify`: Ruff clean, 29 tests passed, frontend typecheck/build passed, CLI smoke passed |
+| `applied-ai-eval-lab` | `make verify`: 21 backend tests passed, frontend audit/typecheck/build/static export passed, static demo QA passed on desktop/mobile |
+| `rag-forge` | `make verify`: 37 tests passed, Ruff clean |
+| `streaminfer` | `make verify`: 40 tests passed, Ruff clean, local smoke passed |
+| `mlops-end-to-end-pipeline` | `make verify`: 15 tests passed, strict lint/format checks passed, training import and Prometheus parse passed |
+| `mlguard` | `make verify`: 26 tests passed, Ruff clean, sklearn example/report check passed |
+
 ## Reproduce The Local Proof
 
 Run these from each repo after installing its documented dependencies. The `PYTHON`
