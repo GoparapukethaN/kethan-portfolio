@@ -8,7 +8,7 @@ the path from retrieval and evaluation to serving, release gates, and classic ML
 
 | Order | Project | Main Signal |
 | ---: | --- | --- |
-| 1 | AI Reliability Platform | RAG reliability, cited answers, evals, traces, provider comparison |
+| 1 | Enterprise RAG Reliability Platform | RAG reliability, cited answers, evals, traces, provider comparison |
 | 2 | Applied AI Eval Lab | Document intelligence, release-gate metrics, live static demo |
 | 3 | RAG Forge | Retrieval benchmarking and regression gates |
 | 4 | StreamInfer | Inference-serving mechanics, batching, backpressure, benchmark gates |
@@ -19,7 +19,7 @@ the path from retrieval and evaluation to serving, release gates, and classic ML
 
 | Skill Area | Evidence |
 | --- | --- |
-| RAG systems | AI Reliability Platform, Applied AI Eval Lab, RAG Forge |
+| RAG systems | Enterprise RAG Reliability Platform, Applied AI Eval Lab, RAG Forge |
 | Evaluation | AI Reliability eval reports, Applied AI release gate, RAG Forge benchmark gate |
 | Observability | AI Reliability traces/metrics, StreamInfer metrics, MLGuard reports |
 | Serving | StreamInfer HTTP/WebSocket serving, MLOps FastAPI service |
@@ -46,11 +46,12 @@ the path from retrieval and evaluation to serving, release gates, and classic ML
 
 1. Open the portfolio proof ledger: [proof-ledger.md](proof-ledger.md).
 2. Read the local verification note: [no-key-verification.md](no-key-verification.md).
-3. Open the flagship demo walkthrough:
+3. Open the enterprise RAG note: [enterprise-rag-reliability-platform.md](enterprise-rag-reliability-platform.md).
+4. Open the flagship demo walkthrough:
    [AI Reliability Platform](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/demo.md).
-4. Open the live static demo:
+5. Open the live static demo:
    [Applied AI Eval Lab](https://goparapukethan.github.io/applied-ai-eval-lab/).
-5. Read one focused case study:
+6. Read one focused case study:
    [RAG Forge](https://github.com/GoparapukethaN/rag-forge/blob/main/docs/case-study.md),
    [StreamInfer](https://github.com/GoparapukethaN/streaminfer/blob/main/docs/case-study.md),
    [MLGuard](https://github.com/GoparapukethaN/mlguard/blob/main/docs/case-study.md),

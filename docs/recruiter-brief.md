@@ -17,14 +17,15 @@ where ML models have to become measurable systems instead of isolated demos.
 1. Portfolio: <https://goparapukethan.github.io/kethan-portfolio/>
 2. Proof ledger: <https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/proof-ledger.md>
 3. Project map: <https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/project-map.md>
-4. Verification note: <https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/no-key-verification.md>
-5. Flagship walkthrough: <https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/demo.md#dashboard-demo>
+4. Enterprise RAG note: <https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/enterprise-rag-reliability-platform.md>
+5. Verification note: <https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/no-key-verification.md>
+6. Flagship walkthrough: <https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/demo.md#dashboard-demo>
 
 ## Public Project Signals
 
 | Project | Signal |
 | --- | --- |
-| AI Reliability Platform | RAG ingestion, cited answers, evals, traces, dashboard, Docker smoke, no-key local mode |
+| Enterprise RAG Reliability Platform | RAG ingestion, cited answers, evals, traces, dashboard, Docker smoke, no-key local mode |
 | Applied AI Eval Lab | Document intelligence dashboard, answer-fact coverage, release gate, live static demo |
 | RAG Forge | Retrieval benchmark grid, regression gate, Markdown/JSON/plot artifacts |
 | StreamInfer | Local inference serving, adaptive batching, backpressure, benchmark gates |
@@ -47,6 +48,8 @@ I have focused upstream PRs open in AI infrastructure and evaluation tooling:
 ## Interview Topics I Can Walk Through
 
 - Why retrieval quality needs regression checks before changing chunking or embedding setup
+- How the enterprise-style RAG platform combines ingestion, citations, eval gates,
+  traces, reports, and dashboard workflows
 - How to measure RAG behavior with citations, source coverage, refusal checks, and latency
 - How to design a local-first AI system that still leaves room for optional model providers
 - How to keep core AI verification Docker-free while preserving separate container smoke checks
